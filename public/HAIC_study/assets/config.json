@@ -804,7 +804,7 @@
     },
     "game-tutorial-video": {
       "type": "video",
-      "path": "/HAIC_study/assets/mastermind_tutorial_video.mp4",
+      "path": "HAIC_study/assets/mastermind_tutorial.mp4",
       "description": "Tutorial video explaining how to play Mastermind before the game starts.",
       "instruction": "## Tutorial:\n\nPlease watch the tutorial video before starting the task.\n\n**Goal:**\nGuess the hidden four-color code.\n\n**Rounds:**\n5 rounds. Round 1 starts with 2 colors; each next round adds 1 color.\n\n**Feedback:**\nBlack = correct color and position.\nWhite = correct color, wrong position.",
       "instructionLocation": "sidebar",

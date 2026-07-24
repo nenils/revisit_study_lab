@@ -14,7 +14,8 @@ services:
         VITE_LSL_ENABLED: ${VITE_LSL_ENABLED:-false}
         VITE_LSL_WS_URL: ${VITE_LSL_WS_URL:-ws://127.0.0.1:8765}
     ports:
-      - "0.0.0.0:${STUDY_HTTP_PORT:-8080}:80"
+       - "0.0.0.0:${STUDY_HTTP_PORT:-8081}:80"
+       - "0.0.0.0:${STUDY_HTTPS_PORT:-4430}:443"
     depends_on:
       - haic-api
     restart: unless-stopped
